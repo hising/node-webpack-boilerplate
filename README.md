@@ -1,14 +1,10 @@
-# Ultimate Hot Reloading Example
+# Node Webpack React Express Mobx Boilerplate
 
-👉👉👉👉 This project is intended as an *example* of how to fit an application together, the idea is that you read the code and understand how it works - then apply the same approach in your own projects. 👈👈👈👈
-
-This is **NOT** intended as a boilerplate or a starter kit, I don't recommend using it as a base for a project unless you're happy that you know how stuff fits together.
+👉👉👉👉 Fork of https://github.com/hising/node-webpack-boilerplate 👈👈👈👈
 
 ## Goals
 
   * Only one running node process ✅
-  * Client-side Redux reducer hot reloading ✅
-  * Server-side Redux reducer hot reloading ✅
   * Client-side React component hot reloading ✅
   * Server-side React component hot reloading ✅
   * Server-side express routes hot reloading ✅
@@ -19,17 +15,8 @@ This is **NOT** intended as a boilerplate or a starter kit, I don't recommend us
 
 ## Installing
 
-Once cloned locally, run `npm install`. To start the server run `npm start` and visit `http://localhost:3000/` in your browser.
+```
+npm install
+npm start
+```
 
-## Try it out
-
-  * Change initial in `reducers/index.js` and hit refresh to see server redux reload
-  * Change INC amount in `reducers/index.js` to and hit the button to see client redux reload
-  * Change component in `components/App.js` to see client/server react reload
-  * Change the responses in `server/app.js` to see the express routes reload
-  * Change the CSS in `client/common/layout.css` to see imported CSS reload
-  * Change the CSS in `client/components/App.css` to see the imported CSS reload
-
-## Demo
-
-![ultimate-reload-css](https://cloud.githubusercontent.com/assets/133832/10411396/56e276ea-6f64-11e5-8d71-d7006a32c38e.gif)

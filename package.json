@@ -30,6 +30,8 @@
     "postcss": "^6.0.21",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
     "react-transform-hmr": "^1.0.4",
     "style-loader": "^0.20.3",
     "webpack": "^4.3.0",

@@ -5,6 +5,7 @@ import qs from 'querystring';
 process.env.NODE_ENV = process.env.NODE_ENV || "development";
 
 export default {
+  mode: 'development',
   devtool: '#eval-source-map',
   entry: [
     'webpack-hot-middleware/client',

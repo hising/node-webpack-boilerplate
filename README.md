@@ -10,6 +10,7 @@
   * Server-side express routes hot reloading ✅
   * Client side [css-modules](https://github.com/css-modules/css-modules) hot reloading ✅
   * Using mostly ES6 module syntax, except where dynamic loading is needed ✅
+  * Client-side TypeScript support hot reloading
   * Data fetching through a remote API
   * Multiple pages via Routing
   * Mobx for state handling

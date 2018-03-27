@@ -27,7 +27,7 @@ export default {
     }
   },
   module: {
-    loaders: [
+    rules: [
       // Javascript
       {
         test: /\.js$/,

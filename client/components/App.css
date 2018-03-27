@@ -1,4 +1,4 @@
-.increment {
+.base {
     composes: box from "../common/layout.css";
     color: white;
     cursor: pointer;

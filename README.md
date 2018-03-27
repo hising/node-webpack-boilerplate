@@ -12,6 +12,10 @@
   * Using mostly ES6 module syntax, except where dynamic loading is needed ✅
   * Data fetching through a remote API
   * Multiple pages via Routing
+  * Mobx for state handling
+  * Basic React Component Library from start https://onsen.io/react/
+  * Jest testing out-of-the-box
+  * Webpack Monitoring https://github.com/webpackmonitor/webpackmonitor
 
 ## Installing
 

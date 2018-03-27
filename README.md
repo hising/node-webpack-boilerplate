@@ -4,6 +4,8 @@
 
 ## Goals
 
+I have waisted hours of my life setting webpack, babel, express and react up with Hot Reloading and some basic features. I found https://github.com/hising/node-webpack-boilerplate which I liked (because it worked) but I do not like the design of Redux (prefer simpler solutions like mobx) and wanted to move to latest versions of React, Webpack etc. That is why I cloned this one. Goal is to build a tiny framework that I (or any other person) can use to get a working JS-only client-server stack up and running fast with some good (IMO) tools already setup. 
+
   * Only one running node process ✅
   * Client-side React component hot reloading ✅
   * Server-side React component hot reloading ✅
